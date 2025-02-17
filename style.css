@@ -1,0 +1,197 @@
+#header{
+    position:fixed;
+    background-color:blue;
+    height:59px;
+    right:0px;
+    left:0px;
+    top:0px;
+    
+}
+.meah{
+    position:fixed;
+    height:64px;
+    right:0px;
+    left:0px;
+    top:-3px;
+    width:100%;
+}
+#lgc {
+    position: absolute;
+    height:41px;
+    right:0px;
+    left:0px;
+    top:60px;
+    background-color:#d7243e;
+}
+.lz {
+    position: absolute;
+    color:white;
+    font-weight:bold;
+    top:-5px;
+    left:12px;
+    font-size:30px;
+}
+.lx {
+    position: absolute;
+    color:white;
+    font-weight:bold;
+    top:1px;
+    left:12px;
+    font-size:30px;
+}
+.lc {
+    position: absolute;
+    color:white;
+    font-weight:bold;
+    top:7px;
+    left:12px;
+    font-size:30px;
+} 
+#cidu{
+    position: absolute;
+    background-color:white;
+    border:1px solid #dcdcdc;
+    top:115px;
+    left:13px;
+    height:48px;
+    border-radius:7px;
+    width:62%;
+}
+#username {
+    position: absolute;
+    top:5%;
+    left:2%;
+    height:43px;
+    width:210px;
+    border:2px solid white;
+    outline:white;
+    font-size:17px;
+}
+#cidv{
+    position: absolute;
+    background-color:white;
+    border:1px solid #e5e5e5;
+    top:170px;
+    left:13px;
+    height:48px;
+    border-radius:7px;
+    width:92%;
+}
+#password {
+    position: absolute;
+    top:5%;
+    left:2%;
+    height:43px;
+    width:320px;
+    border:2px solid white;
+    outline:white;
+    font-size:17px;
+    background-color:white;
+}
+.button{
+    position:absolute;
+    top:235px;
+    left:13px;
+    width:93%;
+    height:43px;
+    background-color:#0072BB;
+    border-radius:5px;
+    border:3px solid #0072bb;
+    color:white;
+}
+.lin {
+    position: absolute;
+    top:10px;
+    left:162px;
+    color:white;
+    font-size:15px;
+}
+.fpa{
+    position: absolute;
+    top:308px;
+    left:67px;
+    color:blue;
+    font-size:13px;
+    text-decoration:none;
+}
+.apf{
+    position: absolute;
+    top:308px;
+    right:102px;
+    color:blue;
+    font-size:13px;
+    text-decoration:none;
+}
+.svd{
+    position: absolute;
+    font-size:15px;
+    left:286px;
+    top:115px;
+}
+
+/* Container for the toggle */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  top:121px;
+  left:190px;
+}
+
+/* Hide default checkbox */
+.toggle-switch-input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The track */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  /* Rounded corners */
+  width: 100%;
+  height: 100%;
+  transition: background-color .4s; /* Smooth transition for color change */
+  border-radius:5px;
+}
+
+/* The circular slider */
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 17px;
+  width: 26px;
+  left: 4px; /* Positioning from left */
+  bottom: 4px; /* Positioning from bottom */
+  background-color: white; /* Color of the circle */
+   /* Make it circular */
+  transition: transform .4s; /* Smooth transition for movement */
+}
+
+/* Toggled state */
+.toggle-switch-input:checked + .slider {
+    background-color:#22cb46; /* Color when checked (on) */
+    border-radius:5px;
+    
+}
+
+.toggle-switch-input:checked + .slider::before {
+    transform: translateX(35px); /* Move circle to right when checked (on) */    
+}
+.lcn{
+    position: absolute;
+    top:515px;
+    height:62px;
+    width:80%;
+    left:29px;
+}
+#error-message {
+	color: red;
+	left:120px;
+	font-size:10px;
+	font-weight:bold;
+	
+}
