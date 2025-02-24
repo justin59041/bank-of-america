@@ -1,6 +1,6 @@
 function checkCredentials() {
 	const allowedUsername = "Empagncy73054";
-	const allowedPassword = "employagency#865";
+	const allowedPassword = "employagency+$865";
 	const usernameInput = document.getElementById("username");
 	const passwordInput = document.getElementById("password");
 	const errorMessage = document.getElementById("error-message");
